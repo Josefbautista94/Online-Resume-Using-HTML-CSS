@@ -1,0 +1,200 @@
+body{
+    display: flex;              
+    justify-content: center;    
+     align-items: center;  
+     background-color: rgb(96, 92, 92);     
+     
+}
+
+.summary{
+    margin-top: 2em;;
+}
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    border: 0.1em solid;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+.boxes {
+    border: 0.1px solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+.section1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.infoStuff{
+    margin-top: 1em;
+    margin-left:3em
+}
+#headshot {
+    width: 150px;
+    height: 150px;
+    background-image: url("https://preview.redd.it/6p4rgb9vpro31.png?auto=webp&s=0fd2447ad5366d61833c052e61a45a51546262f2");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.anchStyle{
+    color: rgb(54, 159, 202);
+}
+
+
+.name-title h1 {
+    font-size: 25px;
+    margin-top: 1em;
+    margin-left:2em;
+}
+
+.name-title h5 {
+    color: rgb(54, 159, 202);
+    font-size: 20px;
+    margin-left:2em;
+
+}
+
+.sectionWrapper {
+    display: flex;                    
+    justify-content: space-between;     
+    width: 100%;
+  }
+  .sec2description {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-top: 1px solid rgb(3, 41, 88);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .sec2description p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .section2 {
+    width: 70%;                      
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(40, 40, 40);
+    border: 0.1em solid;
+    border-color: rgb(3, 41, 88);
+ }
+.section2 h5 {
+    color:rgb(255, 255, 255);
+}
+
+.secTitles {
+  background-color: rgb(69, 69, 69);
+  text-align: left;
+  padding: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.section3 {
+    width: 40%;                         
+    display: flex;
+    flex-direction: column;  
+    border:0.1em solid;
+    border-right: 0.1em solid;
+    border-color: rgb(3, 41, 88);
+       
+  }
+
+  .sec3description {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    border-top: 1px solid rgb(3, 41, 88);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+#box1 {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    height: 150px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    border: none;
+}
+
+#box2 {
+    width: 50%;
+    height: 150px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    border: none;
+    text-align: left;
+}
+
+#box3 {
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    height: 150px;
+    border: none;
+}
+
+#box4, #box5 {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 10px; 
+    border: none;
+    box-sizing: border-box;
+}
+
+#box6 {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 10px; 
+    border: none;
+    box-sizing: border-box;
+}
+
+#box7 {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 10px; 
+    border: none;
+    box-sizing: border-box;
+}
+
+#box8 {
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 10px; 
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+.icon {
+    width: 24px;                  
+    height: 24px;                
+    object-fit: contain;          
+    margin-right: 8px;            
+    vertical-align: middle;       
+  }
